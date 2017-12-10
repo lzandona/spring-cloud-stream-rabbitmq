@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.zandona.messaging.InstantMessage;
+import io.zandona.messaging.InstantMessagePublisher;
 import io.zandona.model.BaseResponse;
 import io.zandona.model.Status;
-import io.zandona.service.InstantMessagePublisher;
 
 @RestController
 public class InstantMessageController {
